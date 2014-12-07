@@ -22,10 +22,24 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
+                  symbolName = "SwiftNews.ViewController.newsUrlStrings.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "SwiftNews"
+                  urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
+                  timestampString = "439641850.74061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
                   symbolName = "SwiftNews.ViewController.newsUrlStrings.setter : Swift.Array&lt;Swift.String&gt;"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.301567"
+                  timestampString = "439641850.740732"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -39,7 +53,7 @@
                   symbolName = "SwiftNews.ViewController.newsUrlStrings.materializeForSet : Swift.Array&lt;Swift.String&gt;"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.30184"
+                  timestampString = "439641850.740856"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -53,7 +67,7 @@
                   symbolName = "SwiftNews.ViewController.init (SwiftNews.ViewController.Type)(style : C.UITableViewStyle) -&gt; SwiftNews.ViewController"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.302043"
+                  timestampString = "439641850.740969"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -67,12 +81,12 @@
                   symbolName = "SwiftNews.ViewController.init (SwiftNews.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; SwiftNews.ViewController"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.302215"
+                  timestampString = "439641850.741071"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "564">
+                  offsetFromSymbolStart = "556">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -81,7 +95,7 @@
                   symbolName = "SwiftNews.ViewController.init (SwiftNews.ViewController.Type)() -&gt; SwiftNews.ViewController"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.302381"
+                  timestampString = "439641850.741199"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -95,7 +109,7 @@
                   symbolName = "SwiftNews.ViewController.init (SwiftNews.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; SwiftNews.ViewController"
                   moduleName = "SwiftNews"
                   urlString = "file:///Users/TFuruyama/Documents/workspace/201411/SwiftNews/SwiftNews/001_ViewControllers/ViewController.swift"
-                  timestampString = "439639322.302538"
+                  timestampString = "439641850.741338"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -134,6 +148,102 @@
             startingLineNumber = "43"
             endingLineNumber = "43"
             landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439641850.694267"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "twitter(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439641870.394449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "twitter(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439641887.503385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "twitter(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439647361.0311"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "facebook(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439647364.292977"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "facebook(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftNews/001_ViewControllers/DetailViewController.swift"
+            timestampString = "439647461.530304"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "twitter(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

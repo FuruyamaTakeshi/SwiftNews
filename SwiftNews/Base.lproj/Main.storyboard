@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BJ2-R2-DIa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BJ2-R2-DIa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,13 +19,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tjy-vV-NRh" id="MTL-on-ZyP">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-qf-jlg">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-qf-jlg">
                                             <rect key="frame" x="32" y="10" width="524" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Content" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJa-FQ-D2s">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Content" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJa-FQ-D2s">
                                             <rect key="frame" x="32" y="39" width="551" height="58"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -40,10 +40,10 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailingMargin" secondItem="DJa-FQ-D2s" secondAttribute="trailing" constant="9" id="2Ym-Nm-tjs"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="g2M-qf-jlg" secondAttribute="trailing" constant="36" id="PuQ-fF-spY"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="g2M-qf-jlg" secondAttribute="trailing" constant="16" id="PuQ-fF-spY"/>
                                         <constraint firstAttribute="centerX" secondItem="1Ly-Zy-R0K" secondAttribute="centerX" id="mc7-O0-VZq"/>
                                         <constraint firstItem="DJa-FQ-D2s" firstAttribute="leading" secondItem="MTL-on-ZyP" secondAttribute="leadingMargin" constant="24" id="orz-cY-aIg"/>
-                                        <constraint firstItem="g2M-qf-jlg" firstAttribute="leading" secondItem="MTL-on-ZyP" secondAttribute="leadingMargin" constant="24" id="q6a-zW-CRI"/>
+                                        <constraint firstItem="g2M-qf-jlg" firstAttribute="leading" secondItem="MTL-on-ZyP" secondAttribute="leadingMargin" constant="12" id="q6a-zW-CRI"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
