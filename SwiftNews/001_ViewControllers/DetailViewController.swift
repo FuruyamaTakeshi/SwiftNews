@@ -9,10 +9,12 @@
 import UIKit
 import Social
 
-class DetailViewController : UIViewController {
+class DetailViewController : UIViewController , UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
     var entry = NSDictionary()
+    
+    var activityIndicator = UIActivityIndicatorView()
     
     @IBAction func twitter(sender: AnyObject) {
         
@@ -56,4 +58,12 @@ class DetailViewController : UIViewController {
         var request = NSURLRequest(URL: url!)
         webView.loadRequest(request)
     }
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        //
+    }
+    
 }
