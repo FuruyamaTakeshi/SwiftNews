@@ -59,7 +59,16 @@ class DetailViewController : UIViewController , UIWebViewDelegate {
         webView.loadRequest(request)
     }
     
+    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        
+        var url = request.mainDocumentURL
+        println(url?.description)
+        
+        return false
+    }
+    
     func webViewDidStartLoad(webView: UIWebView) {
+        
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {

@@ -8,8 +8,10 @@
 
 import UIKit
 
+
 class ViewController: UITableViewController {
     
+    var queue = NSOperationQueue()
     var entries = NSMutableArray()
     var newsUrlStrings = [
         "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://rss.rssad.jp/rss/impresswatch/pcwatch.rdf&num=100",
@@ -21,6 +23,10 @@ class ViewController: UITableViewController {
         
         entries.removeAllObjects()
         let url = NSURL(string: newsUrlStrings[0])
+        var operation = HTTPOperation(URLString:newsUrlStrings[0])
+        
+        self.queue.addOperation(operation)
+        
         var task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { data, response, error in
             var dict = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
             if var responseData = dict["responseData"] as? NSDictionary {
@@ -32,6 +38,7 @@ class ViewController: UITableViewController {
             }
             dispatch_async(dispatch_get_main_queue(), {
                 self.tableView .reloadData()
+
             })
         })
         task.resume()
@@ -39,6 +46,7 @@ class ViewController: UITableViewController {
     
     let iphones = ["iPhone", "iPhone 3G", "iPhone 3GS", "iPhone 4", "iPhone 4S", "iPhone5", "iPhone 5S", "iPhone 6", "iPhone 6 Plus"]
     let years = ["2007", "2008", "2008", "2010", "2011", "2012", "2013", "2014", "2014"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
